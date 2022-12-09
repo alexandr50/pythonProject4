@@ -78,4 +78,3 @@ class Application:
 
 application = Application(routes, fronts)
 
-# uwsgi --http :8000 --wsgi-file fwsgi.py
