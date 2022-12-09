@@ -56,10 +56,7 @@ class Application:
         self.fronts = fronts
 
     def __call__(self, environ, start_response):
-        """
-            :param environ: словарь данных от сервера
-            :param start_response: функция для ответа серверу
-        """
+
         # сначала в функцию start_response передаем код ответа и заголовки
         # print(type(environ))
         # print(environ)
