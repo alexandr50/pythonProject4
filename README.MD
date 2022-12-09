@@ -1,0 +1,1 @@
+запуск uwsgi --http :8000 --wsgi-file fwsgi.py
